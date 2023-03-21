@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+.mdc-top-app-bar {
+  background-color: #212121;
+  color: white;
+}
+
+.mdc-top-app-bar__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mdc-top-app-bar__navigation-icon,
+.mdc-top-app-bar__action-item {
+  color: white;
+}
+
+.mdc-card {
+  margin: 20px;
+  max-width: 500px;
+}
+
+.mdc-card__primary-action {
+  display: flex;
+  flex-direction: column;
+}
+
+.mdc-card__media--square .mdc-card__media-content {
+  padding-top: 100%;
+}
+
+.mdc-card__primary {
+  margin-top: 20px;
+}
+
+.mdc-card__title--large {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.mdc-card__subtitle {
+  font-size: 16px;
+  color: #757575;
+}
+
+.mdc-card__secondary {
+  margin-top: 20px;
+}
+
+.mdc-card__action {
+  color: #039be5;
+}
+
+.mdc-card__action:hover {
+  color: #0288d1;
+}
